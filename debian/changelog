@@ -1,0 +1,5 @@
+zsnapper (2.0.0-1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Trevor Joynson <debian@trevor.joynson.io>  Sun, 10 Jul 2016 20:36:39 -0400

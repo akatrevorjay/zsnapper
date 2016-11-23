@@ -1,0 +1,20 @@
+[Unit]
+Description=ZFS Snapper Daemon
+After=network.target
+After=dbus.service
+After=iscsid.service
+After=apparmor.service
+After=local-fs.target
+After=remote-fs.target
+Documentation=man:zsnapper(1)
+Documentation=https://github.com/calmh/zsnapper
+
+[Service]
+Type=simple
+ExecStart=/opt/zsnapper/bin/zsnapper -v
+ExecReload=/usr/bin/kill -HUP $MAINPID
+PIDFile=/var/run/zsnapper.pid
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
