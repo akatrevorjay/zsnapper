@@ -1,3 +1,11 @@
+zsnapper (2.0.0-1-1ubuntu1~1.gbpf0ae3c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f0ae3cf81b5c72e73c0d0feaf771251d9b645493 **
+
+  * UNRELEASED
+
+ -- Trevor Joynson (Debian) <debian@trevor.joynson.io>  Tue, 22 Nov 2016 21:20:58 -0800
+
 zsnapper (2.0.0-1-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
